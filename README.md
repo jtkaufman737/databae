@@ -9,7 +9,7 @@ I'm looking for HTML mockup pages for a blog site - which this will be - ideally
 And the font 
   - lobster 
 
-Although it won't run with the Vue dev server, you can put those files as html images with any css library dependencies under src/brainstorm with a .html extension, and I will take a look at them. Any that appear to be serious attempts will get a PR for hacktoberfest. Please name files FirstnameLastname.html 
+Although it won't run with the Vue dev server, you can put those files as html images with any css library dependencies under src/brainstorm with a .html extension, and I will take a look at them. Any that appear to be serious attempts will get a PR for hacktoberfest. Please name files FirstnameLastname.html. Please take a screenshot also of how the mockup looked on your device, and save that as FirstnameLastname.png
 
 If for any reason you feel like exploring a Vue project in the getting-started stage, you can actually run it with the steps below.
 
