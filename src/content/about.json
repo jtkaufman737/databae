@@ -1,0 +1,27 @@
+{
+  name: 'About',
+  date: '2019-12-29T18:25:43.611Z',
+  body: `
+  ## why databae
+
+  It started as a joke actually. Me being a mega nerd I was telling a developer friend who doesn't work with databases
+  the bit of trivia that both schemas and schemata are the correct plural of schema for a database.
+
+  "What is the plural of databases?" they wondered, and I deadpanned "Databae or databi"
+
+  More seriously, since getting thrown into databases in my first big kid developer job, they've grown on me quite a bit. We
+  had a rocky start, but things have come a long way from there.
+
+  ## new site who dis
+
+  My name is Joy although I use my initals professionally (JT) and there is a whole additional camp of people who know me by
+  my handle, JTK.
+
+  I'm a Baltimore native (hon), and after spending some time in the DC area I settled in North Carolina a few years back and
+  I love it.
+
+  I'm an avid traveler, giant book nerd, and professionally I love Python, SQL, Node, and Vue.js. When free time presents itself
+  I enjoy learning new things. Next up is probably Go.
+
+  `
+}

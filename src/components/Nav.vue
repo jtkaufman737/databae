@@ -1,11 +1,11 @@
 <template>
-  <div class="home">
+  <div class="nav">
     <nav class="navbar">
       <img src="../assets/databae.png"/>
       <ul class="fullWidth">
-        <li>about</li>
-        <li>posts</li>
-        <li>elsewhere on the web</li>
+        <router-link to="/about">About</router-link>
+        <router-link to="/">Posts</router-link>
+        <router-link to="/elsewhere">Elsewhere on the web</router-link>
       </ul>
     </nav>
     <section class="postlist">
@@ -15,8 +15,9 @@
 </template>
 
 <script>
+
 export default {
-  name: 'Home',
+  name: 'Nav',
 
   methods: {},
 
@@ -32,6 +33,17 @@ export default {
   font-family:'Raleway', sans-serif;
   letter-spacing: 1px;
 }
+
+div.nav {
+  width:100%;
+  margin:0px;
+  padding:0px !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+ font-family:'Lobster Two', cursive;
+}
+
 img {
   height:100px;
   margin:auto;
@@ -65,7 +77,12 @@ nav.navbar ul {
   list-style-type:none;
 }
 
-li {
+ul * {
   padding:2rem 5rem 2rem 5rem;
+}
+
+a {
+  color:white;
+  text-decoration:none;
 }
 </style>
